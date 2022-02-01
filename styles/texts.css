@@ -1,0 +1,49 @@
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+span{
+    display: flex;
+}
+
+.gradient {
+  animation: animationTextLinearGradient 1.5s alternate ease-in-out infinite;
+
+  background-image: linear-gradient(-90deg, #ffffff, #000000);
+  background-size: 100vw;
+
+  /* Aplicar no text */
+  -webkit-background-clip: text;
+
+  /* Cor do texto */
+  -webkit-text-fill-color: transparent;
+}
+
+.rainbow {
+  animation: animationTextLinearGradient 1.5s alternate infinite ease-in-out;
+
+  background-size: 100vw;
+  background-image: linear-gradient(
+    120deg,
+    #f33a12,
+    #d9e60d,
+    #16f111,
+    #11dcf1,
+    #110ef1,
+    #ee0eed
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes animationTextLinearGradient {
+  0% {
+    background-position: 25vw;
+  }
+
+  100% {
+    background-position: 100vw;
+  }
+}

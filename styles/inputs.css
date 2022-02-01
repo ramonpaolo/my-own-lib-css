@@ -1,0 +1,31 @@
+input {
+  border: 2px #4d4d4d solid;
+  border-radius: 4px;
+
+  display: block;
+
+  height: 32px;
+
+  margin: 8px 0px;
+
+  padding: 12px;
+
+  width: 100%;
+}
+
+input::placeholder {
+  color: #4d4d4d;
+
+  font-weight: bold;
+
+  padding-left: 8px;
+}
+
+.no-bdr{
+    border: 0px;
+}
+
+.bg-dark, .bg-dark::placeholder{
+  background-color: #464646;
+  color: white;
+}
