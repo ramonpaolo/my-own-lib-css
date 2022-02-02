@@ -1,5 +1,5 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 /* Components */
 @import url("./styles/buttons.css");
@@ -8,43 +8,59 @@
 @import url("./styles/nav.css");
 @import url("./styles/progress_bar.css");
 
-*{
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
-    flex-direction: column;
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  flex-direction: column;
 }
 
-label{
-    font-size: 2rem;
+label {
+  font-size: 2rem;
 }
 
-::selection{
-    background-color: rgba(157, 127, 127, 0.337);
+::selection {
+  background-color: rgba(157, 127, 127, 0.337);
 }
 
 .container {
-    margin: 32px 0px;
-    width: 60%;
+  margin: 32px 0px;
+  width: 60%;
+  text-align: center;
 }
 
-.bdr-32{
-    border-radius: 32px;
+.bdr-32 {
+  border-radius: 32px;
 }
 
-.bdr-16{
-    border-radius: 16px;
+.bdr-16 {
+  border-radius: 16px;
 }
 
-.bdr-8{
-    border-radius: 8px;
+.bdr-8 {
+  border-radius: 8px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: inline;
+  margin: 0;
+  padding: 0;
 }
